@@ -31,8 +31,8 @@ services:
         networks:
             - default
         ports:
-            - '80:80'
-            - '443:443'
+            - '2222:2222'
+            - '2222:2222'
             # - "9000:9000" # enable when not using caddy to be able to reach php-fpm
         extra_hosts:
             - 'host.docker.internal:host-gateway' # shows the panel on the internal docker network as well. usually '172.17.0.1'
